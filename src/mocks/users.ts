@@ -1,6 +1,6 @@
 import { UserInformation } from "../types/types";
 
-export const userInformation: UserInformation = {
+export const userInformationMock: UserInformation = {
   id: 1,
   name: "Leanne Graham",
   username: "Bret",
@@ -24,7 +24,7 @@ export const userInformation: UserInformation = {
   },
 };
 
-export const userInformationList: UserInformation[] = [
+export const userInformationListMock: UserInformation[] = [
   {
     id: 1,
     name: "Leanne Graham",
