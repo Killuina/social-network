@@ -1,14 +1,14 @@
 import GlobalStyles from "./GlobalStyes";
-import UserCard from "./components/UserCard/UserCard";
-import { userInformation } from "./mocks/UserInformation";
+import UserList from "./components/UserList/UserList";
+import { userInformationList } from "./mocks/users";
 
-function App() {
+const App = () => {
   return (
     <div className="app">
       <GlobalStyles />
-      <UserCard userInformation={userInformation} />
+      <UserList userList={userInformationList} />
     </div>
   );
-}
+};
 
 export default App;
