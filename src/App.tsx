@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import GlobalStyles from "./GlobalStyes";
 import UserList from "./components/UserList/UserList";
+import Header from "./components/Header/Header";
 
 const App = () => {
   const [userList, setUserList] = useState([]);
@@ -19,6 +20,7 @@ const App = () => {
 
   return (
     <div className="app">
+      <Header />
       <GlobalStyles />
       <UserList userList={userList} />
     </div>
