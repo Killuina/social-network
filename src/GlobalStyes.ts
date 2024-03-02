@@ -15,10 +15,17 @@ const GlobalStyles = createGlobalStyle`
     font-family: var(--font-primary);
   }
 
-   h1,
+  h1,
   h2 {
     margin: 0;
     font-family: inherit
+  }
+
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
   }
 `;
 
